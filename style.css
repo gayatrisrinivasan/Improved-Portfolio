@@ -1,0 +1,154 @@
+@font-face {
+    font-family: SF-Pro-Rounded;
+    src: url(fonts/FontsFree-Net-SF-Pro-Rounded-Regular.ttf);
+}
+
+body {
+    background-color: #131419;
+    font-family: SF-Pro-Rounded;
+    color: #ffffff;
+}
+
+
+/* TAB ONE */
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #02A7FB;
+}
+
+.nav {
+    background-color: #1d2335;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #fff;
+    background-color: #131419;
+    border: none;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: #02A7FB;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #1d2335;
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border-color: #fff;
+    isolation: isolate;
+}
+
+/* ABOUT ME */
+/* MAIN CARD */
+
+
+.aboutme-card {
+   background-color: #1d2335;
+   border-radius: 9px;
+   margin: 5% 35% 1% 35%;
+   padding: 90px 20px 30px 30px;
+}
+
+.pfp {
+    position: relative;
+    left: 615px;
+    top: 150px;
+    width: 120px;
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+}
+
+#about-me h1 {
+    font-weight: bolder;
+    line-height: 60px;
+    font-size: 60px;
+    letter-spacing: 1.5px;
+}
+
+#about-me span {
+    color: #02A7FB;
+}
+
+#about-me h3 {
+    font-size: 35px;
+    line-height: 60px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+} 
+
+#about-me p {
+    font-family: 'Jost', sans-serif
+} 
+
+/* SOCIAL */
+
+.btn-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    color: #999999;
+}
+
+.insta {
+    position: relative;
+    left: 600px;
+    bottom: 15px;
+}
+
+.insta img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.linkedin {
+    position: relative;
+    left: 650px;
+    bottom: 15px;
+}
+
+.linkedin img {
+    width: 15px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.github {
+    position: relative;
+    left: 700px;
+    bottom: 15px;
+}
+
+.github img {
+    width: 15px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
