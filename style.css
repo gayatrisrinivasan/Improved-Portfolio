@@ -368,7 +368,7 @@ body {
   font-size: 30px;
 }
 
-.lang {
+.lang-title {
   display: inline-block;
   position: relative;
   left: 50px;
@@ -377,27 +377,13 @@ body {
 }
 
 .lang-1 {
-  display: inline-block;
-  position: relative;
-  right: 100px;
-  top: 900px;
   background-color: #1d2335;
-  padding: 20px;
 }
 
-.html {
-  display: inline-block;
-  position: relative;
-  left: 18px;
-  width: 100px;
-  height: 100px;
-  background: url(images/html.png) no-repeat;
+.lang-1 img {
+  width: 150px;
+  background: url(images/html.png);
 }
-
-.html:hover {
-  background: url(images/html\ c.png) no-repeat;
-}
-
 /* EDUCATION TAB */
 
 .school {
